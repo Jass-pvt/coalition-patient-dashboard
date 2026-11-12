@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Emily Williams", "gender": "Female", "age": 18,
+    "profile_picture": "https://fixture.invalid/emily.png",
+    "date_of_birth": "1/21/2006", "phone_number": "(555) 000-0001",
+    "emergency_contact": "(555) 000-0101", "insurance_type": "Fixture Insurance A",
+    "diagnosis_history": [], "diagnostic_list": [], "lab_results": []
+  },
+  {
+    "name": "Ryan Johnson", "gender": "Male", "age": 45,
+    "profile_picture": "https://fixture.invalid/ryan.png",
+    "date_of_birth": "4/12/1979", "phone_number": "(555) 000-0002",
+    "emergency_contact": "(555) 000-0102", "insurance_type": "Fixture Insurance B",
+    "diagnosis_history": [], "diagnostic_list": [], "lab_results": []
+  },
+  {
+    "name": "Jessica Taylor", "gender": "Female", "age": 28,
+    "profile_picture": "https://fixture.invalid/jessica.png",
+    "date_of_birth": "8/23/1996", "phone_number": "(555) 000-0003",
+    "emergency_contact": "(555) 000-0103", "insurance_type": "Fixture Insurance C",
+    "diagnosis_history": [
+      { "month": "October", "year": 2023,
+        "blood_pressure": { "systolic": { "value": 120, "levels": "Normal" }, "diastolic": { "value": 110, "levels": "Higher than Average" } },
+        "heart_rate": { "value": 78, "levels": "Lower than Average" }, "respiratory_rate": { "value": 20, "levels": "Normal" }, "temperature": { "value": 98.6, "levels": "Normal" } },
+      { "month": "November", "year": 2023,
+        "blood_pressure": { "systolic": { "value": 130, "levels": "Normal" }, "diastolic": { "value": 90, "levels": "Higher than Average" } },
+        "heart_rate": { "value": 76, "levels": "Lower than Average" }, "respiratory_rate": { "value": 19, "levels": "Normal" }, "temperature": { "value": 98.4, "levels": "Normal" } },
+      { "month": "December", "year": 2023,
+        "blood_pressure": { "systolic": { "value": 140, "levels": "Higher than Average" }, "diastolic": { "value": 85, "levels": "Normal" } },
+        "heart_rate": { "value": 74, "levels": "Lower than Average" }, "respiratory_rate": { "value": 21, "levels": "Normal" }, "temperature": { "value": 98.2, "levels": "Normal" } },
+      { "month": "January", "year": 2024,
+        "blood_pressure": { "systolic": { "value": 150, "levels": "Higher than Average" }, "diastolic": { "value": 80, "levels": "Normal" } },
+        "heart_rate": { "value": 80, "levels": "Normal" }, "respiratory_rate": { "value": 18, "levels": "Normal" }, "temperature": { "value": 98.7, "levels": "Normal" } },
+      { "month": "February", "year": 2024,
+        "blood_pressure": { "systolic": { "value": 145, "levels": "Higher than Average" }, "diastolic": { "value": 82, "levels": "Normal" } },
+        "heart_rate": { "value": 77, "levels": "Lower than Average" }, "respiratory_rate": { "value": 20, "levels": "Normal" }, "temperature": { "value": 98.5, "levels": "Normal" } },
+      { "month": "March", "year": 2024,
+        "blood_pressure": { "systolic": { "value": 160, "levels": "Higher than Average" }, "diastolic": { "value": 78, "levels": "Lower than Average" } },
+        "heart_rate": { "value": 78, "levels": "Lower than Average" }, "respiratory_rate": { "value": 20, "levels": "Normal" }, "temperature": { "value": 98.6, "levels": "Normal" } }
+    ],
+    "diagnostic_list": [
+      { "name": "Hypertension", "description": "Chronic high blood pressure", "status": "Under Observation" },
+      { "name": "Type 2 Diabetes", "description": "Insulin resistance and elevated blood sugar", "status": "Cured" },
+      { "name": "Asthma", "description": "Recurrent episodes of bronchial constriction", "status": "Inactive" }
+    ],
+    "lab_results": ["Blood Tests", "CT Scans", "Radiology Reports", "X-Rays"]
+  },
+  {
+    "name": "Samantha Johnson", "gender": "Female", "age": 56,
+    "profile_picture": "https://fixture.invalid/samantha.png",
+    "date_of_birth": "2/2/1968", "phone_number": "(555) 000-0004",
+    "emergency_contact": "(555) 000-0104", "insurance_type": "Fixture Insurance D",
+    "diagnosis_history": [], "diagnostic_list": [], "lab_results": []
+  }
+]

@@ -1,0 +1,113 @@
+/* Base styles are mobile-first; these layers enhance upward. */
+
+@media (max-width: 767px) {
+  :root {
+    --page-gutter: var(--space-3);
+  }
+  .header {
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    gap: var(--space-3);
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .header__nav {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--space-1);
+  }
+  .header__user-text,
+  .header__divider {
+    display: none;
+  }
+  .card {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .bp {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .bp__canvas {
+    max-width: 100%;
+  }
+  .vitals {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 100%;
+  }
+  .vital {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: var(--space-4);
+    align-items: center;
+  }
+  .vital__icon {
+    grid-row: 1 / span 3;
+    margin: 0;
+    width: 64px;
+    height: 64px;
+  }
+  .patients__list {
+    max-height: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --page-gutter: var(--space-5);
+  }
+  .bp {
+    grid-template-columns: minmax(0, 1fr) 180px;
+  }
+  .dashboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: 'aside patients' 'main main';
+  }
+  .dashboard__aside {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --page-gutter: var(--space-6);
+  }
+  .dashboard {
+    grid-template-columns: 260px minmax(0, 1fr) 280px;
+    grid-template-areas: 'patients main aside';
+  }
+  .bp {
+    grid-template-columns: minmax(0, 1fr) 150px;
+  }
+  .vital__value {
+    font-size: var(--text-xl);
+  }
+}
+
+@media (min-width: 1280px) {
+  .dashboard {
+    grid-template-columns: 300px minmax(0, 1fr) 320px;
+  }
+  .vital__value {
+    font-size: var(--text-2xl);
+  }
+}
+
+@media (min-width: 1440px) {
+  .dashboard {
+    grid-template-columns: var(--col-side) minmax(0, 1fr) var(--col-side);
+  }
+  .bp {
+    grid-template-columns: minmax(0, 1fr) 200px;
+  }
+}

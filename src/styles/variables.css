@@ -1,0 +1,56 @@
+/*
+ * Design tokens. Colors/sizes are sampled from the XD screenshot (1600px design width).
+ * Values marked "approx" could not be read from an inspect panel: verify them in XD.
+ */
+:root {
+  /* Colors */
+  --color-primary: #01f0d0;
+  --color-primary-soft: #d8fcf7; /* approx: selected patient row */
+  --color-navy: #072635;
+  --color-text: #072635;
+  --color-text-muted: #707070;
+  --color-bg: #f6f7f8;
+  --color-surface: #ffffff;
+  --color-chart-panel: #f4f0fe;
+  --color-vital-blue: #e0f3fa;
+  --color-vital-red: #ffe6e9;
+  --color-vital-pink: #ffe6f1;
+  --color-row-divider: #f6f7f8;
+  --color-systolic: #e66fd2;
+  --color-diastolic: #8c6fe6;
+  --color-focus: #6c3fd1;
+
+  /* Typography */
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.875rem;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Radii & shadows */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+  --shadow-card: 0 4px 20px rgb(0 0 0 / 0.03);
+
+  /* Layout */
+  --container-max: 1600px;
+  --page-gutter: var(--space-4);
+  --gap: var(--space-6);
+  --col-side: 367px;
+}
